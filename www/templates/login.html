@@ -1,0 +1,28 @@
+<ion-view view-title="Home" hide-nav-bar="true">
+
+  <ion-content>
+
+    <div class="img-cover fixed z-lo">
+     	<img src="img/animated-bg.gif">
+	</div>
+
+	<div class="relative z-hi text-center p10 pt60 ml40 mr30 pb60">
+		<h3 class="fw200 m0 light"><img src="img/L.png" height="99"><br><font color="white"></font>We hope you'd love our app as much as we do.</font><br></h3>
+    <div class="list list-inset mt120">
+          <label class="item item-input input-transparent">
+              <input type="text" placeholder="Username" ng-model="username">
+          </label>
+          <label class="item item-input input-transparent mt10">
+              <input type="password" placeholder="Password" ng-model="password">
+          </label>
+      </div>
+      <div class="p10">
+        <button class="button button-block button-energized up" ng-click="start()">Sign In</button>
+        <p class="light mt30">Don't have account yet?</p>
+        <a class="button button-outline button-block button-light up" href="#/app/register">Sign Up</a>
+      </div>
+  </div>
+
+
+  </ion-content>
+</ion-view>
